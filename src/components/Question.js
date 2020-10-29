@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import data from './utils/data'
+import data from './utils/data';
 
 function Question(props) {
    
