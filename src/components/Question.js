@@ -14,13 +14,14 @@ function Question(props) {
     
     
     const generateQuestion = () => {
+
         return (
             <>
             <h3>
                 {data[props.number].question}
             </h3>
             <div>
-                {data[props.number].incorrect.map((answer,index) => {
+                {Array.from(new Set(data[props.number].incorrect)).map((answer,index) => {
                     return (
                         <div key={index} >
                             <input type="radio" name="answers" value={answer}
