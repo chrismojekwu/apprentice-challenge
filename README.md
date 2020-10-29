@@ -8,7 +8,7 @@ I tried to focus on features and details that made for a friendly and interactiv
 
 ## Running the app locally
 ```bash
-git clone 
+git clone https://github.com/chrismojekwu/apprentice-challenge.git
 ```
 
 ```bash
@@ -19,6 +19,11 @@ npm install
 npm start
 ```
 
+## System Dependencies
+Node.js v12.19.0
+NPM 6.14.8
+React 17.0.1
+(...should also work with any earlier versions within reason)
 
 
 
