@@ -1,0 +1,53 @@
+:root {
+    --ten: 10px;
+    --grey: rgba(197, 196, 196, 0.829);
+}
+body {
+    padding: var(--ten);
+}
+
+.quiz {
+    border: solid var(--grey) 1px;
+    text-align: center;
+}
+
+.submit,.saved-scores, button {
+    margin-top: var(--ten);
+}
+
+.reveal, .message{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+
+.message {
+    color: black;
+}
+
+.current-scores > * {
+    display: inline-block;
+    margin-left: var(--ten);
+}
+
+.saved-scores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.score-card {
+    border: solid var(--grey) 1px;
+    min-width: 10%;
+    padding: var(--ten);
+}
+
+.local-scores {
+    display: flex;
+}
+
+.local-title {
+    position: relative;
+    bottom: 40px;
+}
