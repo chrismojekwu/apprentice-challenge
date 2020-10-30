@@ -4,11 +4,14 @@
 }
 body {
     padding: var(--ten);
+    font-family: 'Trebuchet MS';
 }
 
 .quiz {
     border: solid var(--grey) 1px;
     text-align: center;
+    border-radius: 5px;
+    background-color: rgb(160, 186, 235);
 }
 
 .submit,.saved-scores, button {
