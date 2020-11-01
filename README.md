@@ -9,6 +9,8 @@ I wanted to keep styling as minimal as possible but still deliver an engaging in
 
 Beyond the core requirements a user can save, access & clear a list of score cards from localStorage.
 
+** Note: I wasnt sure about altering after submission so theres a branch called touchups that has a few changed lines/1 extra test. (11/1/2020 5:30PM CT) 
+
 ## Running the app locally
 ```bash
 git clone https://github.com/chrismojekwu/apprentice-challenge.git
