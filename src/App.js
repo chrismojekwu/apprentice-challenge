@@ -1,6 +1,6 @@
 import './App.css';
 import Question from './components/Question';
-import SavedScores from './components/SavedScores'
+import SavedScores from './components/SavedScores';
 import { useState } from 'react';
 
 
@@ -12,8 +12,8 @@ function App() {
   const [reveal, setReveal] = useState(false);
   const [roundOne, setRoundOne] = useState(0);
   const [roundTwo, setRoundTwo] = useState(0);
-  const [showScore, setShowScore] = useState(false)
-  const [message, setMessage] = useState("")
+  const [showScore, setShowScore] = useState(false);
+  const [message, setMessage] = useState("");
 
   const submit = (e) => {
     e.preventDefault()

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import Question from '../components/Question';
-import data from '../components/data'
+import data from '../components/utils/data';
 
 describe('<Question/>', () => {
     const number = 3;
@@ -15,7 +15,7 @@ describe('<Question/>', () => {
     });
 
     test('check that the array of answers includes the correct answer',  () => {
-        expect(data[number].incorrect).toEqual(expect.arrayContaining([data[number].correct]))
+        expect(data[number].incorrect).toEqual(expect.arrayContaining([data[number].correct]));
     });
 
     test('check that the answers array position is not equal to 3', () => {

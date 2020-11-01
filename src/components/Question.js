@@ -24,7 +24,7 @@ function Question(props) {
                 {Array.from(new Set(data[props.number].incorrect)).map((answer,index) => {
                     return (
                         <div key={index} >
-                            <input type="radio" name="answers" value={answer}
+                            <input type="radio" name="answers" className={answer} value={answer}
                             onClick={() => props.setAnswer(answer)}
                             />
                             <label htmlFor={`Answer${index}`}>{answer}</label>

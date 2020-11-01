@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 
 function SavedScores(props) {
-    const [savedScores, setSavedScores] = useState([])
+    const [savedScores, setSavedScores] = useState([]);
     
 
     useEffect(()=> {
@@ -31,6 +31,6 @@ function SavedScores(props) {
         })}
       </div>  
     )
-}
+};
 
 export default SavedScores;
